@@ -1,0 +1,35 @@
+[DeviceName]
+Value=P18F4550
+[DeviceClock]
+Value=8
+[MainUnit]
+Value=pianopic.c
+[DeviceFlags]
+Count=7
+Value0=_FOSC_INTOSC_HS_1H = $00FB
+Value1=_FOSC_HS_1H = $00FC
+Value2=_FOSC_HSPLL_HS_1H = $00FE
+Value3=_WDT_OFF_2H = $00FE
+Value4=_PBADEN_OFF_3H = $00FD
+Value5=_LVP_OFF_4L = $00FB
+Value6=_XINST_OFF_4L = $00BF
+[BuildType]
+bType=0
+[ProjectFiles]
+Count=1
+Value0=pianopic.c
+[HeaderFiles]
+Count=0
+[ObjLibFiles]
+Count=0
+[PLDFiles]
+Count=0
+[EEPROMinfo]
+isused=0
+[SearchPath]
+Count=3
+Value0=C:\Dados\mikroC\Defs\
+Value1=C:\Dados\mikroC\Uses\p18\
+Value2=C:\Users\WIN7\Dropbox\eLab\Projectos PIC\pianopic\
+[IncludePath]
+Count=0

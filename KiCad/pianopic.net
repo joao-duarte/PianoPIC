@@ -1,0 +1,442 @@
+# EESchema Netlist Version 1.1 created  15/02/2013 00:01:52
+(
+ ( /5117EB21 C1V8 C1 220uF
+  ( 1 VDD )
+  ( 2 VSS )
+ )
+ ( /5116FC64 LED-3MM D1 LED_Power
+  ( 1 N-000003 )
+  ( 2 VSS )
+ )
+ ( /5117AD86 LED-3MM D2 LED
+  ( 1 /L1 )
+  ( 2 N-000025 )
+ )
+ ( /5116F3D3 LED-3MM D3 LED
+  ( 1 /L2 )
+  ( 2 N-000025 )
+ )
+ ( /5116F3D1 LED-3MM D4 LED
+  ( 1 /L3 )
+  ( 2 N-000025 )
+ )
+ ( /5116F3D2 LED-3MM D5 LED
+  ( 1 /L4 )
+  ( 2 N-000025 )
+ )
+ ( /5116F39F LED-3MM D6 LED
+  ( 1 /L5 )
+  ( 2 N-000025 )
+ )
+ ( /5116F3B8 LED-3MM D7 LED
+  ( 1 /L6 )
+  ( 2 N-000025 )
+ )
+ ( /5116F3C1 LED-3MM D8 LED
+  ( 1 /L7 )
+  ( 2 N-000025 )
+ )
+ ( /5116F3C0 LED-3MM D9 LED
+  ( 1 /L8 )
+  ( 2 N-000025 )
+ )
+ ( /5116F3E0 LED-3MM D10 LED
+  ( 1 /L9 )
+  ( 2 N-000025 )
+ )
+ ( /5116F3DE LED-3MM D11 LED
+  ( 1 /L10 )
+  ( 2 N-000025 )
+ )
+ ( /5116F3DF LED-3MM D12 LED
+  ( 1 /L11 )
+  ( 2 N-000025 )
+ )
+ ( /5116F497 PINHEAD1-2 P1 Power_IN
+  ( 1 VSS )
+  ( 2 VDD )
+ )
+ ( /51170A4F R4-LARGE_PADS R1 1K
+  ( 1 /re*4 )
+  ( 2 VSS )
+ )
+ ( /51170A6F R4-LARGE_PADS R2 1K
+  ( 1 /do*4 )
+  ( 2 VSS )
+ )
+ ( /51170A78 R4-LARGE_PADS R3 1K
+  ( 1 /si*2 )
+  ( 2 VSS )
+ )
+ ( /51170A77 R4-LARGE_PADS R4 1K
+  ( 1 /la*2 )
+  ( 2 VSS )
+ )
+ ( /51170A7F R4-LARGE_PADS R5 1K
+  ( 1 /sol*2 )
+  ( 2 VSS )
+ )
+ ( /5116FC55 R4-LARGE_PADS R6 120R
+  ( 1 VDD )
+  ( 2 N-000003 )
+ )
+ ( /51170A7E R4-LARGE_PADS R7 1K
+  ( 1 /fa*2 )
+  ( 2 VSS )
+ )
+ ( /51170A7C R4-LARGE_PADS R8 1K
+  ( 1 /mi*2 )
+  ( 2 VSS )
+ )
+ ( /51170A7D R4-LARGE_PADS R9 1K
+  ( 1 /re*2 )
+  ( 2 VSS )
+ )
+ ( /51170A85 R4-LARGE_PADS R10 1K
+  ( 1 /do*2 )
+  ( 2 VSS )
+ )
+ ( /51170A87 R4-LARGE_PADS R11 1K
+  ( 1 /si )
+  ( 2 VSS )
+ )
+ ( /51170A86 R4-LARGE_PADS R12 1K
+  ( 1 /la )
+  ( 2 VSS )
+ )
+ ( /5116FAA0 R4-LARGE_PADS R13 1k
+  ( 1 /~MClear~ )
+  ( 2 VDD )
+ )
+ ( /51170875 R4-LARGE_PADS R14 1k
+  ( 1 VDD )
+  ( 2 N-000016 )
+ )
+ ( /5116F8EB R4-LARGE_PADS R15 120R
+  ( 1 VSS )
+  ( 2 N-000025 )
+ )
+ ( /511704A0 PIN_ARRAY_2X1 SP1 SPEAKER
+  ( 1 /Speaker )
+  ( 2 VSS )
+ )
+ ( /5116F334 SW_PUSH_SMALL SW1 la
+  ( 1 VDD )
+  ( 2 /la )
+ )
+ ( /5116F34A SW_PUSH_SMALL SW2 si
+  ( 1 VDD )
+  ( 2 /si )
+ )
+ ( /5116F349 SW_PUSH_SMALL SW3 do*2
+  ( 1 VDD )
+  ( 2 /do*2 )
+ )
+ ( /5116F362 SW_PUSH_SMALL SW4 re*2
+  ( 1 VDD )
+  ( 2 /re*2 )
+ )
+ ( /5116F363 SW_PUSH_SMALL SW5 mi*2
+  ( 1 VDD )
+  ( 2 /mi*2 )
+ )
+ ( /5116F365 SW_PUSH_SMALL SW6 fa*2
+  ( 1 VDD )
+  ( 2 /fa*2 )
+ )
+ ( /5116F364 SW_PUSH_SMALL SW7 sol*2
+  ( 1 VDD )
+  ( 2 /sol*2 )
+ )
+ ( /5116F369 SW_PUSH_SMALL SW8 la*2
+  ( 1 VDD )
+  ( 2 /la*2 )
+ )
+ ( /5116F368 SW_PUSH_SMALL SW9 si*2
+  ( 1 VDD )
+  ( 2 /si*2 )
+ )
+ ( /5116F366 SW_PUSH_SMALL SW10 do*4
+  ( 1 VDD )
+  ( 2 /do*4 )
+ )
+ ( /5116F367 SW_PUSH_SMALL SW11 re*4
+  ( 1 VDD )
+  ( 2 /re*4 )
+ )
+ ( /5116FB70 SW_PUSH_SMALL SW12 RESET
+  ( 1 /~MClear~ )
+  ( 2 VSS )
+ )
+ ( /511703DE MICROSWITCH_SPST SW13 MODE
+  ( 1 N-000016 )
+  ( 2 /Mode )
+  ( 3 VSS )
+ )
+ ( /5116F2DA DIP-40__600_ELL U1 PIC18F4550
+  ( 1 /~MClear~ )
+  ( 2 /Speaker )
+  ( 3 /Mode )
+  ( 4 /re*4 )
+  ( 5 /L11 )
+  ( 6 ? )
+  ( 7 ? )
+  ( 8 ? )
+  ( 9 ? )
+  ( 10 ? )
+  ( 11 VDD )
+  ( 12 VSS )
+  ( 13 ? )
+  ( 14 ? )
+  ( 15 ? )
+  ( 16 /si )
+  ( 17 /L2 )
+  ( 18 ? )
+  ( 19 /la )
+  ( 20 /L1 )
+  ( 21 /L3 )
+  ( 22 /do*2 )
+  ( 23 ? )
+  ( 24 ? )
+  ( 25 /L4 )
+  ( 26 /re*2 )
+  ( 27 /L5 )
+  ( 28 /mi*2 )
+  ( 29 /L6 )
+  ( 30 /fa*2 )
+  ( 31 VSS )
+  ( 32 VDD )
+  ( 33 /L7 )
+  ( 34 /sol*2 )
+  ( 35 /L8 )
+  ( 36 /la*2 )
+  ( 37 /L9 )
+  ( 38 /si*2 )
+  ( 39 /L10 )
+  ( 40 /do*4 )
+ )
+)
+*
+{ Allowed footprints by component:
+$component C1
+ CP*
+ SM*
+$endlist
+$component D1
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D2
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D3
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D4
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D5
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D6
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D7
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D8
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D9
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D10
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D11
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D12
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component R1
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R2
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R3
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R4
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R5
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R6
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R7
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R8
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R9
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R10
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R11
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R12
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R13
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R14
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R15
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component U1
+ pic
+$endlist
+$endfootprintlist
+}
